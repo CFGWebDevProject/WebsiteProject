@@ -1,0 +1,140 @@
+nav{
+    background: rgb(131, 161, 235);
+    opacity: 0.7;
+    position: fixed;
+    z-index: 2;
+}
+
+nav:hover{
+    background: linear-gradient(90deg, red, yellow);
+    /* color: blue ; */
+}
+
+/* ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 1290px;
+} */
+
+
+
+
+#opening{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(228, 147, 17, 0.911);
+    font-family:monospace;
+    /* margin-top: -20px; */
+}
+
+#carousel {
+    margin: 20px;
+}
+
+/* #search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%; */
+    /* 300px also works good */
+    /* justify-content: center; BROKEN*/
+
+/* form{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+/* search bar and buttons spacing from item above */
+
+/* #form-search{
+    width: 200px;
+    height: 20px;
+}
+search bar size */ 
+
+a{
+    align-items: right;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    font-family:monospace;
+    text-decoration: cornsilk;
+    font-weight: 800;
+}
+
+h2 {
+    color: coral;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h3 {
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+h4 {
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#aboutp {
+    background-color: rgb(244, 245, 182);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#characters {
+    /* background-color: rgb(244, 245, 182); */
+    /* padding-right: 250px; */
+    display: flex;
+
+    /* align-items: right;
+    text-align: right; */
+    justify-content: right; 
+}
+
+#charimg {
+    
+    padding-left: 50px;
+    width: 400px;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    margin: 0px 20px;
+}
+
+p {
+    padding-left:50px;
+    padding-right:50px;
+}
+footer {
+    
+    padding-top: 10px;
+    font-size: smaller;
+    text-align: center;
+    color: cadetblue;
+    background-color: cornsilk;
+}
